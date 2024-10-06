@@ -1,0 +1,44 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar-logo h2 {
+    color: white;
+    margin: 0;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links button {
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+  }
+  
+  .navbar-links button:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* App.css */
+  section {
+    padding: 50px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  section h1 {
+    margin-bottom: 10px;
+  }
+  
